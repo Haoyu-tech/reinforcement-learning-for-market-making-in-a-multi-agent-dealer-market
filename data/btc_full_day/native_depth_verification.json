@@ -1,0 +1,7 @@
+{
+  "native_engine": "Nautilus OrderBook L2_MBP",
+  "compared_snapshots": 5,
+  "replayed_deltas": 211594,
+  "all_twenty_depth_buckets_match": true,
+  "method": "independent event-by-event engine vs vectorized last-write reconstruction"
+}

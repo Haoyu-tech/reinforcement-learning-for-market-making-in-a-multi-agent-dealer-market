@@ -1,0 +1,20 @@
+{
+  "best_effort_scope_completed": true,
+  "pilot_runs": 10,
+  "main_scenarios": 40,
+  "main_runs": 200,
+  "pricing_diagnostic_runs": 10,
+  "variance_extension_runs": 10,
+  "risk_sensitivity_training_runs": 15,
+  "additional_frozen_risk_reference_evaluations": 30,
+  "official_backend": true,
+  "selected_normalization": "none",
+  "test_used_for_selection": false,
+  "main_learning_runs": 100,
+  "empirical_stability_passed_runs": 1,
+  "expected_files_and_accounting_verified": true,
+  "frozen_protocol_unchanged": true,
+  "original_numeric_replication": false,
+  "author_exact_settings_known": false,
+  "not_exchange_fill_backtest": true
+}

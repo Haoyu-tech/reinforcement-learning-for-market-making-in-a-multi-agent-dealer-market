@@ -1,0 +1,28 @@
+{
+  "source_sha256": "5352f63470329d160d2356b871102cccd35b7c9294a7e0c60dbc486085a3c12c",
+  "independent_gamma_shape_sampling": true,
+  "gamma_fit": "MLE with loc=0, then normalize mean to 1",
+  "mle_shape": 2.351830546594641,
+  "mle_scale_before_normalization": 0.4252007022563598,
+  "lambda_value": 0.37210486714498187,
+  "lambda_rule": "95% of sampled reference books cover a unit order within ten levels",
+  "unit_order_deepest_level_counts": [
+    2182,
+    30306,
+    25712,
+    14536,
+    8242,
+    5177,
+    3420,
+    2418,
+    1656,
+    6351
+  ],
+  "unit_order_extrapolation_fraction": 0.05,
+  "original_spread_law_preserved": true,
+  "original_level_spacing_preserved": true,
+  "original_default_price_sigma_preserved": true,
+  "original_author_lambda_available": false,
+  "original_author_RLlib_version_available": false,
+  "strict_original_replication": false
+}

@@ -1,0 +1,29 @@
+{
+  "rule": "Choose larger five-seed mean of final three validation scores; no heldout/test evaluation in pilot",
+  "scores": {
+    "none": {
+      "seed_scores": [
+        0.16253025662673012,
+        0.15847111299661412,
+        0.030781208414052807,
+        0.17250244842765547,
+        0.05069868936681276
+      ],
+      "mean": 0.11499674316637305
+    },
+    "meanstd": {
+      "seed_scores": [
+        -0.03904987370368968,
+        -0.05791397799095744,
+        -0.04522515913552529,
+        -0.05386736844185156,
+        -0.06090855261091419
+      ],
+      "mean": -0.05139298637658764
+    }
+  },
+  "selected": "none",
+  "selected_on": "validation_only",
+  "test_used_for_selection": false,
+  "keep_both_variants": true
+}

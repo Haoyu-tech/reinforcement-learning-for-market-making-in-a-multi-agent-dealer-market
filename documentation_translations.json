@@ -1,0 +1,17 @@
+{
+  "v4/PROTOCOL.md": {
+    "original_sha256": "da2d243aec29a79993af3b6bbb4e63db1c84868efc6dcabf7cc73f78c0d753ee",
+    "published_sha256": "597a8637a9f785dcdff402a24e9056ed15be60e4b9190e5d42d1609fe4f521ab",
+    "change": "English documentation translation; scientific implementation unchanged"
+  },
+  "v4/VARIANCE_EXTENSION.md": {
+    "original_sha256": "a770f6e0439237b84217e15ceab4981ea4e6249eddfe5d4a124789c5fee52166",
+    "published_sha256": "ffb815dfaf7707624fdff954991049d54e1e23b746d4e2556eb798eeb77b3a9e",
+    "change": "English documentation translation; scientific implementation unchanged"
+  },
+  "v4/RISK_SENSITIVITY.md": {
+    "original_sha256": "669819a3b253690668b555277fb014a0b2107250392494bb9d63120dc387927c",
+    "published_sha256": "73792f6cb3b6db4bf7ce35ed4640015215c15d09c62d3bd27c1b0e2208345ed4",
+    "change": "English documentation translation; scientific implementation unchanged"
+  }
+}
