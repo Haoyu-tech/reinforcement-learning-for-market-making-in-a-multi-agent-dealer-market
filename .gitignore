@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.npz
+*.parquet
+*.pkl
+*.pt
+*.pth
+.DS_Store
