@@ -15,6 +15,22 @@ An independent, best-effort reproduction of [Ganesh et al. (2019), arXiv:1911.05
 
 See the [full English report](results/v4_study/REPORT.md), [per-seed main metrics](results/v4_study/all_seed_metrics.csv), and [verification record](results/v4_study/verification.json). Confidence intervals summarize variation across five model seeds; comparisons are exploratory and have no multiplicity correction.
 
+## Visual results
+
+### Learned quotes versus the theoretical benchmark
+
+![Learned quote distributions compared with the analytical spread optimum](results/v4_study/figures/figure_01.png)
+
+Distributions pool five seeds. Blue shows the main total-PnL policies; orange shows the separate spread-only diagnostic; green shows the exploratory conditional-reward extension. Dashed lines mark the theoretical spread-revenue optima. Closer quotes do not necessarily imply higher realized total PnL.
+
+### Inventory risk under the original penalty coefficients
+
+![Inventory and inventory-PnL distributions under the original risk penalties](results/v4_study/figures/figure_05.png)
+
+The left panel shows inventory; the right panel shows inventory PnL. Narrower distributions under the original penalties largely reflect policies that stopped trading. Read these alongside market share in the [full report](results/v4_study/REPORT.md), rather than interpreting low inventory alone as successful risk management.
+
+[Browse all 14 experiment figures](results/v4_study/figures).
+
 ## What is being reproduced?
 
 The simulator generates synthetic investor orders, dealer quotes, hedging and GBM prices according to the disclosed paper mechanisms. BTC supplies depth-distribution calibration only. This is not a chronological exchange-fill backtest, and normalized PnL is not live BTC profitability. Exchange queues, cancellation delays, margin and market impact are not modeled.
